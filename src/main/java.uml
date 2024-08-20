@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/info/Developer/Ticket/ticket/src/main/java</OriginalElement>
+  <nodes>
+    <node x="-162.0" y="-164.0">com.dperalta.ticket.controllers.TicketController</node>
+    <node x="44.0" y="706.0">com.dperalta.ticket.repositories.UsuarioRepository</node>
+    <node x="396.0" y="723.5">com.dperalta.ticket.entities.TicketVip</node>
+    <node x="-162.0" y="-116.0">com.dperalta.ticket.controllers.UsuarioController</node>
+    <node x="548.0" y="706.0">com.dperalta.ticket.controllers.AppController</node>
+    <node x="-162.0" y="-212.0">com.dperalta.ticket.services.AppService</node>
+    <node x="55.0" y="-68.0">com.dperalta.ticket.controllers.EventoController</node>
+    <node x="41.0" y="493.0">com.dperalta.ticket.entities.Evento</node>
+    <node x="-162.0" y="723.5">com.dperalta.ticket.entities.TicketEstandard</node>
+    <node x="54.0" y="104.5">com.dperalta.ticket.repositories.TicketRepository</node>
+    <node x="-162.0" y="-20.0">com.dperalta.ticket.factory.TicketFactory</node>
+    <node x="-162.0" y="-68.0">com.dperalta.ticket.repositories.EventoRepository</node>
+    <node x="-162.0" y="87.0">com.dperalta.ticket.TicketApplication</node>
+    <node x="-162.0" y="170.0">com.dperalta.ticket.entities.Usuario</node>
+    <node x="-159.0" y="505.0">com.dperalta.ticket.entities.Ticket</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dperalta.ticket.entities.TicketEstandard" target="com.dperalta.ticket.entities.Ticket" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="79.5" />
+    </edge>
+    <edge source="com.dperalta.ticket.entities.TicketVip" target="com.dperalta.ticket.entities.Ticket" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="457.0" y="696.0" />
+      <point x="-74.0" y="696.0" />
+      <point x="0.0" y="79.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5784215784215784" showDependencies="false" x="283.0" y="288.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
